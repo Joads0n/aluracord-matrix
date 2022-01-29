@@ -62,7 +62,7 @@ function HomePage() {
 */
 
 export default function PaginaInicial() {
-    const username = 'peas';
+    const username = 'Joads0n';
   
     return (
       <>
@@ -70,8 +70,8 @@ export default function PaginaInicial() {
         <Box
           styleSheet={{
             display: 'flex', alignItems: 'center', justifyContent: 'center',
-            backgroundColor: appConfig.theme.colors.primary[500],
-            backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2020/08/the-matrix-digital-rain.jpg)',
+            backgroundColor: appConfig.theme.colors.primary[0],
+            backgroundImage: 'url(https://virtualbackgrounds.site/wp-content/uploads/2021/01/ati-dubai-office-meeting-room-1536x864.jpg)',
             backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundBlendMode: 'multiply',
           }}
         >
@@ -102,7 +102,7 @@ export default function PaginaInicial() {
               <Text variant="body3" styleSheet={{ marginBottom: '32px', color: appConfig.theme.colors.neutrals[300] }}>
                 {appConfig.name}
               </Text>
-  
+              
               <TextField
                 fullWidth
                 textFieldColors={{
